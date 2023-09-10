@@ -1,0 +1,52 @@
+h2 {
+    color:Blue;
+    text-align:center;
+}
+body {
+    Background-image:url("wall.jpg");
+    Background-repeat:no-repeat;
+    background-size:cover;     
+}
+.SignUp {
+    padding:25px;
+    margin-top:30px;
+    color:pink;
+    width:250px;
+    background-color:rgba(58,59,65,0.8);
+    margin:auto;
+}
+form {
+    width:250px;
+    text-align:center;
+    margin:-10;
+}
+input {
+    text-align: center;
+    width:200px;
+    border: none;
+    background: transparent;
+    color:white;
+    border-bottom:1px solid;
+    font-size:15px;
+    outline: none;
+    padding: 10px 0;
+    font-weight:20px;
+    transition:1.4s;
+}
+button{
+    border:none;
+    border-radius:15px;
+    font-size:20px;
+    color:pink;
+    width: 200px;
+    line-height:40px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:purple;
+    color:white;
+}
+::placeholder{
+    color: white;
+    opacity:0.4;
+}
